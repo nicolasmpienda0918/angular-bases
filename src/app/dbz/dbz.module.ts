@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 
 import { MainPageComponent } from './pages/main-page-companent';
@@ -15,7 +16,9 @@ import { AddCaharacterComponent } from './components/add-caharacter/add-caharact
     AddCaharacterComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
+
   ],
   exports: [
     MainPageComponent,
